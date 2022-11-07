@@ -1,0 +1,11 @@
+h1 {
+    text-transform: uppercase; /* Se transforma el texto y se deja las iniciales en mayuscula en el h1*/
+}
+p {
+    font-size: 1.5em; /* Se aumenta el tamaño de la fuente en los párrafos*/
+    color: #888888; /* Se cambia el color en los párrafos */
+}
+.ciudad {
+    font-style: italic; /* Se pone en cursiva la clase ciudad*/
+    font-weight: bolder; /*Se pone en negrita la clase ciudad */
+}

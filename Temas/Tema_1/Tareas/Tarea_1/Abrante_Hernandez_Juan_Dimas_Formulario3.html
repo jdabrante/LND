@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pagina de pruebas</title>
+<link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/><script  type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script></head>
+
+<body>
+    <form action="/registrardatos.php" method="post">
+        <fieldset>
+            <legend>Rellenar</legend>
+            <label for="english">
+                <input id="english" type="radio" name="lenguage" value="Inglés"> Inglés <br>
+            </label>
+            <label for="german" ">
+                        <input id=" german" type="radio" name="lenguage" value="Alemán"> Alemán <br>
+            </label>
+            <label for="french">
+                <input id="frech" type="radio" name="lenguage" value="Francés"> Francés <br>
+            </label>
+            <select name="dipositivo">
+                <option value="USB">USB</option>
+                <option value="Disco duro externo">Disco duro externo</option>
+                <option value="Nube">Nube</option>
+            </select>
+            <br>
+            <label for="name">Nombre</label>
+            <input id="name" type="text" size="20" pattern="\d[a-z]#">
+            <br>
+            <label for="surname">Apellido</label>
+            <input id="surname" type="text" size="20">
+        </fieldset>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <select name="sexo" multiple>
+                <option value="Hombre">Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select>
+            <br>
+            <label for="gender">
+                <input type="checkbox" name="gender" value="Masculino"> Masculino
+                <br>
+                <input type="checkbox" name="gender" value="Feminino"> Femenino
+            </label>
+            <br>
+            <label for="date">Elije una fecha:</label>
+            <input id="date" type="date">
+            <iframe src="prueba.html"></iframe>
+        </fieldset>
+    </form>
+</body>
+
+</html>

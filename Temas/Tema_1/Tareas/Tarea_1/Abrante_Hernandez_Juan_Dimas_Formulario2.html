@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prueba formulario</title>
+<link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/><script  type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script></head>
+
+<body>
+    <form action="/registrardatos.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="name_surname"> Apellido y nombre:</label>
+            <input id="name_surname" type="text" size="50">
+            <br>
+            <label for="NIF">Documento de identidad</label>
+            <input id="NIF" type="text" size="9">
+            <br>
+            <label for="date">Fecha de nacimiento</label>
+            <input id="date" type="date">
+            <br>
+            <label for="adress">Dirección</label>
+            <input id="adress" type="text" size="50">
+        </fieldset>
+        <fieldset>
+            <legend>Datos laborales</legend>
+            <label for="company_name">Nombre de la empresa</label>
+            <input id="company_name" type="text" size="50">
+            <br>
+            <label for="activity">Actividad</label>
+            <input id="activity" type="text" size="50">
+            <br>
+            <label for="company_adress">Dirección</label>
+            <input id="company_adress" type="text" size="50">
+        </fieldset>
+        <button onclick="alert('Registrado');">Registrarme</button>
+    </form>
+</body>
+
+</html>
