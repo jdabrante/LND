@@ -1,0 +1,36 @@
+/*Se cambia todo el contenido del body a color #00F (azul)*/
+body {
+    color: #00F;
+    background-color: #CFC;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+/*El h1 se cambia a color #F00 (rojo). Se da una famalia de fuentes 
+(dependerá del navegador cual se vea). Se aplica un tamaño de 32 píxeles */
+h1 {
+    color: #F00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 32px;
+}
+
+/*Êl h2 se cambia a color #A00 (rojo fuerte). Se da una familia de fuentes
+(dependerá del navegador cual se vea). Se aplica un tamaño de 24 píxeles */
+h2 {
+    color: #A00;
+    font-family: Verdana, Calibri, sans-serif;
+    font-size: 24px;
+}
+
+/*Se modifica la clase "texto_importante" de color con el color verde*/
+.texto_importante {
+    color: #060F
+}
+
+/*Se modifica la clase "color_fondo" de color con el color negro para el fondo y 
+blanco para el texto. Se cambia el estilo de la fuente a cursiva. */
+.color_fondo {
+    background-color: #000000;
+    color: #ffffff;
+    font-style: italic;
+}
