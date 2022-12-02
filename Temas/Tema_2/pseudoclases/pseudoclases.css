@@ -1,0 +1,54 @@
+#noticia {
+    background-image: radial-gradient(rgba(250, 235, 215, 0.752), antiquewhite);
+    text-align: justify;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+body {
+    padding-top: 2%;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+h1 {
+    color: rgb(45, 38, 38);
+    text-align: center;
+}
+
+h1~p {
+    font-weight: bold;
+}
+
+h1+p {
+    text-decoration: underline;
+
+}
+
+section>p {
+    color: grey;
+}
+
+#lista {
+    background-image: radial-gradient(rgba(250, 235, 215, 0.752), antiquewhite);
+    text-align: justify;
+    margin-top: 10%;
+    padding: 5%;
+    border-radius: 5%;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:nth-child(10) {
+    color: green;
+}
+
+li:hover {
+    background-color: rgb(153, 255, 0);
+}
