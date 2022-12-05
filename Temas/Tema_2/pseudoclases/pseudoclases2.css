@@ -1,0 +1,28 @@
+#ElQuijote::after {
+    content: " SERGUIR LEYENDO...";
+}
+
+#ElQuijote::first-letter {
+    font-size: 3em;
+}
+
+#div1 {
+    position: absolute;
+    background-color: grey;
+    height: 30%;
+    width: 50%;
+    padding: 10%;
+
+
+}
+
+#ElQuijote {
+    position: relative;
+    background-color: green;
+
+
+}
+
+body {
+    background-color: aqua;
+}
