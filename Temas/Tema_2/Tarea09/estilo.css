@@ -1,0 +1,92 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 100;
+}
+
+p {
+	padding-bottom: 6px;
+	padding-top: 6px;
+}
+
+h1 {
+	padding-top: 40px;
+	padding-left: 112px;
+	color: #a9c9;
+}
+
+h2 {
+	padding-top: 0px;
+	padding-left: 112px;
+	color: #b3b79b;
+}
+
+h3 {
+	color: #8D926A;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#caja_nav ul {
+	padding: 16px 0 2px;
+	margin-left: 160px;
+	list-style-type: none;
+	color: #bb6633;
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+	padding: .2em 1em;
+}
+
+li a:hover {
+	color: #111111;
+}
+
+body {
+
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#principal {
+	width: 741px;
+	height: 399px;
+	background-image: url(img/fondo.jpg);
+
+}
+
+#barraenlace {
+	width: 741px;
+	height: 43px;
+	background-image: url(img/barra_enlace.jpg);
+}
+
+#top_contenido {
+	height: 135px;
+	width: 741px;
+	background-image: url(img/top.jpg);
+
+}
+
+blockquote>p {
+	margin-left: 15%;
+	margin-right: 35%;
+	padding-top: 15%;
+	text-align: justify;
+}
+
+
+
+#principal_contenido {
+	background-color: rgba(240, 248, 255, 0);
+}
