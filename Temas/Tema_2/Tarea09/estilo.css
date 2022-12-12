@@ -76,17 +76,38 @@ body {
 	width: 741px;
 	background-image: url(img/top.jpg);
 
+
 }
 
-blockquote>p {
-	margin-left: 15%;
-	margin-right: 35%;
-	padding-top: 15%;
+blockquote {
+
+	margin-left: 25%;
+	margin-right: 45%;
 	text-align: justify;
+	padding-top: 5%;
+	font-size: small;
+	font-style: italic;
+
+
 }
 
 
 
 #principal_contenido {
-	background-color: rgba(240, 248, 255, 0);
+	background-image: url(img/body_tile.jpg);
+	display: block;
+	width: 741px;
+}
+
+#principal_contenido>p,
+h3 {
+	margin-left: 15%;
+	margin-right: 35%;
+}
+
+#pie {
+	text-align: center;
+	color: aliceblue;
+	background-color: #b3b79b;
+	width: 34%;
 }
