@@ -13,7 +13,10 @@ p {
 h1 {
 	padding-top: 40px;
 	padding-left: 112px;
-	color: #a9c9;
+	color: #111111;
+	font-size: 25px;
+	font-style: italic;
+
 }
 
 h2 {
@@ -63,6 +66,7 @@ body {
 	height: 399px;
 	background-image: url(img/fondo.jpg);
 
+
 }
 
 #barraenlace {
@@ -106,8 +110,13 @@ h3 {
 }
 
 #pie {
+	margin-left: 4.5%;
 	text-align: center;
 	color: aliceblue;
 	background-color: #b3b79b;
 	width: 34%;
+	padding-left: 10%;
+	padding-right: 10%;
+	border-radius: 15px;
+
 }
