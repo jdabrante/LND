@@ -1,0 +1,32 @@
+.contenedor {
+    background: grey;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 200px;
+    align-items: center;
+}
+
+.item {
+    background: black;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.item-1 {
+    background: blue;
+}
+
+.item-2 {
+    background: darkblue;
+}
+
+.item-3 {
+    background: rgb(0, 0, 31);
+    flex-grow: 2;
+}
