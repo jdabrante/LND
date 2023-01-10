@@ -1,0 +1,42 @@
+.flex-container {
+    max-width: 960px;
+    width: 90%;
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 0;
+    background-color: midnightblue;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+    line-height: 200px;
+    font-size: 20px;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    margin: 5px 2px;
+}
+
+#item1 {
+    order: 2;
+}
+
+#item2 {
+    order: 3;
+}
+
+#item3 {
+    order: 5;
+}
+
+#item4 {
+    order: 4;
+}
+
+#item5 {
+    order: 1;
+}
