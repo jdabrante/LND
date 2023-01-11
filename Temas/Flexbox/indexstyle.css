@@ -1,0 +1,10 @@
+ul {
+    margin: 20px;
+    max-width: max-content;
+    padding: 20px;
+    width: 90%;
+    line-height: 40px;
+    background-color: rgba(245, 222, 179, 0.438);
+    list-style-type: none;
+
+}
