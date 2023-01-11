@@ -1,0 +1,31 @@
+.container {
+    background: black;
+    width: 100em;
+    height: 100em;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header {
+    height: 100px;
+    background: rgb(132, 68, 68)
+}
+
+.nav {
+    height: 50px;
+    background: rgb(83, 139, 83);
+}
+
+.aside {
+    width: 200px;
+    background: rgb(78, 78, 138);
+}
+
+.section {
+    width: 100px;
+    background: rgb(118, 69, 69);
+}
+
+.footer {
+    background: rgba(198, 177, 177, 0.763);
+}
